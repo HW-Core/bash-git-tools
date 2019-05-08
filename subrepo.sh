@@ -23,6 +23,6 @@ function subrepoUpdate() {
 
     git subrepo clean "$folder"
     git subrepo pull "$folder"
-    git subrepo push "$folder" -s
+    git subrepo push "$folder"
     git subrepo clean "$folder"
 }
